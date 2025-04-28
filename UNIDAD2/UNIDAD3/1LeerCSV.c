@@ -5,11 +5,12 @@
 #define Max_line 1024
 
 int main(){
-    FILE * file;
+    FILE *file;
     char line[Max_line];
     char *token;
 
-    file = fopen("../1datos.csv", "r");
+    //Abrir un archivo en modo lectura
+    file = fopen("../1Datos.csv", "r");
     if(file == NULL){
         perror("Error al abrir el archivo");
         return 1;
@@ -33,5 +34,6 @@ int main(){
     }
 
     fclose(file);
+
     return 0;
 }
