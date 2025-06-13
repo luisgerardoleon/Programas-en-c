@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "Build MySQL C Program",
+          "type": "shell",
+          "command": "gcc",
+          "args": [
+              "Demo.c",
+              "-o",
+              "demo.exe",
+              "-I",
+              "C:/Program Files/MySQL/MySQL Server 8.0/include",
+              "-L",
+              "C:/Program Files/MySQL/MySQL Server 8.0/lib",
+              "-lmysqlclient"
+          ],
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          },
+          "problemMatcher": ["$gcc"],
+          "detail": "Compiling C program with MySQL client library"
+      }
+  ]
+}

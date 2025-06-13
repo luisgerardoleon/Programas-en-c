@@ -1,0 +1,6 @@
+gcc -Wall -Wextra -g3 "C:/Users/Dulce/OneDrive/Documents/GitHub/Programas-en-c/UNIDAD2/UNIDAD3/Demo.c" -IC:"C:/Program Files/MySQL/MySQL Server 8.0/include" "C:/Program Files/MySQL/MySQL Server 8.0/lib/libmysql.lib" -o "C:/Users/Dulce/OneDrive/Documents/GitHub/Programas-en-c/UNIDAD2/UNIDAD3/output/Demo.exe"
+
+
+cd "C:\Users\Dulce\OneDrive\Documents\GitHub\Programas-en-c\UNIDAD2\UNIDAD3\output"
+
+./Demo.exe
